@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+</head>
+
+<body>
+    <div class="genshin">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="head_logo">
+                <a href="">
+                    <img src="./img/静音.png" alt="">
+                </a>
+                <div class="nav">
+                    <ul>
+                        <li class="first"><a href="#head">首页</a></li>
+                        <li><a href="#news">新闻</a></li>
+                        <li><a href="#role">角色</a></li>
+                        <li><a href="#world">世界</a></li>
+                        <div class="nav-box"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="head_right">
+                <div><a href=""><span>成长关爱系统</span><img src="./img/关爱.png" alt=""></a></div>
+                <div>
+                    <a href=""><span>登录</span><img src="./img/登录.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+        <!-- 视频部分 -->
+        <div class="bgWrap" id="head">
+            <div class="poster__concept">
+                <video width="100%" loop="loop" muted="muted" autoplay>
+                    <source src="audio/首页背景视频.mp4" type="audio/mp4">
+                </video>
+            </div>
+            <!-- 移动端 -->
+            <div class="yid">
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <svg data-bs-target="#navMenu" data-bs-toggle="collapse"
+                        style="position: absolute;right: 10px;top: 10px;" t="1687006444649" class="icon"
+                        viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2106" width="20"
+                        height="20">
+                        <path
+                            d="M550.848 502.496l308.64-308.896a31.968 31.968 0 1 0-45.248-45.248l-308.608 308.896-308.64-308.928a31.968 31.968 0 1 0-45.248 45.248l308.64 308.896-308.64 308.896a31.968 31.968 0 1 0 45.248 45.248l308.64-308.896 308.608 308.896a31.968 31.968 0 1 0 45.248-45.248l-308.64-308.864z"
+                            p-id="2107"></path>
+                    </svg>
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="#head">首页</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="#news">新闻</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="#role">角色</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="#world">世界</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="yid_hd">
+                    <div class="logo1"><img src="./img/12+.png" alt=""></div>
+                    <div class="logo2" style="display: none;"><img src="./img/yuanshen.png" alt=""></div>
+                    <div data-bs-target="#navMenu" data-bs-toggle="collapse">
+                        <svg t="1686996461574" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" p-id="1461" width="50" height="50">
+                            <path
+                                d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z"
+                                fill="#ffffff" p-id="1462"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="yid_logo">
+                    <img src="./img/yuanshen.png" alt="">
+                </div>
+                <!-- 播放按钮 -->
+                <div class="video_play">
+                    <img src="./img/中间播放功能.png">
+                    <button class="play_video">
+
+                    </button>
+                    <div class="play_videoSjx"></div>
+                </div>
+                <div class="yid_xz">
+                    <div><img src="./img/a9661b3.png" alt=""></div>
+                    <div><img src="./img/59a171d.png" alt=""></div>
+                </div>
+                <div class="yid_qs">
+                    <div><img src="./img/6ad55e4.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="showitem">
+                <div class="twelve">
+                    <img src="./img/12+.png">
+                </div>
+                <div class="qisheng">
+                    <a href=""><img src="./img/七圣召唤.png"></a>
+                </div>
+                <!-- 播放按钮 -->
+                <div class="video_play">
+                    <img src="./img/中间播放功能.png">
+                    <button class="play_video">
+
+                    </button>
+                    <div class="play_videoSjx"></div>
+                </div>
+                <!-- 下载部分 -->
+                <ul class="ys_download">
+                    <li>
+                        <img class="ys_ewm" src="./img/首页二维码.png">
+                        <img class="ys_paim" src="./img/派蒙.jfif">
+                    </li>
+                    <li class="ys_pingtai">
+                        <a class="ps4" href=""><img width="160px" height="52px" src="./img/PS4.png"></a>
+                        <a class="appel" href=""><img width="160px" height="52px" src="./img/苹果.png"></a>
+                    </li>
+                    <li class="ys_pingtai">
+                        <a class="tap" href=""><img width="160px" height="52px" src="./img/Tap.png"></a>
+                        <a class="anzhuo" href=""><img width="160px" height="52px" src="./img/安卓.png"></a>
+                    </li>
+                    <li class="ys_pc">
+                        <a href=""><img src="./img/PC.png" alt=""></a>
+                    </li>
+                </ul>
+
+                <ul class="jiazai">
+                    <li><img src="./img/加载.png" alt=""></li>
+                    <li><img src="./img/加载.png" alt=""></li>
+                    <li><img src="./img/加载.png" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- 新闻资讯 -->
+        <div class="message" id="news">
+            <h3>新闻资讯</h3>
+            <!-- 新闻块 -->
+            <div class="new_Boom">
+                <!-- 轮播图 -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <li>
+                                <a href="javascript:;"><img src="./img/轮播1.jpg"></a>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li>
+                                <a href="javascript:;"><img src="./img/轮播2.jpg"></a>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li>
+                                <a href="javascript:;"><img src="./img/轮播3.png"></a>
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li>
+                                <a href="javascript:;"><img src="./img/轮播4.jpg"></a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+                <!-- 资质列表 -->
+                <div class="news_list">
+                    <ul class="news_list_ul">
+                        <li class="newsFirst">最新</li>
+                        <li>新闻</li>
+                        <li>公告</li>
+                        <li>活动</li>
+                    </ul>
+                    <div class="tab_con">
+                        <ul class="item">
+                            <li>
+                                <a href="">
+                                    <p class="item_p">&nbsp;&nbsp;体悟、仁爱与识美之知</p>
+                                    <p class="item_p2">2023/02/24</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="item_p">&nbsp;&nbsp;生老三千疾，何处可问医</p>
+                                    <p class="item_p2">2023/02/24</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="item_p">《原神》「派梦的画作必胜客联动篇」联动主题表情包即将上架</p>
+                                    <p class="item_p2">2023/02/24</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="item_p">「赤沙游记」———《原神》新角色：迪西娅分享H5正式上线</p>
+                                    <p class="item_p2">2023/02/24</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="item_p">《原神》3.5版本「七圣召唤」全新卡牌说明</p>
+                                    <p class="item_p2">2023/02/24</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="all_news">
+
+                        <a href="">
+                            <span class="jiahao">+</span>
+                            <span>查看全部资讯</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 角色 -->
+        <div class="role" id="role">
+            <h3>主要角色</h3>
+            <div class="role_con">
+                <ul class="gzrc-hd">
+                    <li class="gzrc-active" id="mytzli">蒙德</li>
+                    <li id="ldgzrcli">璃月</li>
+                    <li id="ldgzrcli">稻妻</li>
+                    <li id="ldgzrcli">须弥</li>
+                </ul>
+                <ul class="gzrc-bd">
+                    <li style="display: block;">
+                        <div class="fa_text_gzrc" id="mygztz">
+                            <div>
+                                <img src="./img/蒙德城/阿贝多.png">
+                                <p>阿贝多</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/埃洛伊.png">
+                                <p>埃洛伊</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/迪卢克.png">
+                                <p>迪卢克</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/可丽.png">
+                                <p>可丽</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/莫娜.png">
+                                <p>莫娜</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/琴妈.png">
+                                <p>琴妈</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/温蒂.png">
+                                <p>温蒂</p>
+                            </div>
+                            <div>
+                                <img src="./img/蒙德城/优菈.png">
+                                <p>优菈</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fa_text_gzrc" id="ldgzrc">
+                            <div>
+                                <img src="./img/璃月港/达达利亚.png">
+                                <p>达达利亚</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/甘雨.png">
+                                <p>甘雨</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/胡桃.png">
+                                <p>胡桃</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/刻晴.png">
+                                <p>刻晴</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/七七.png">
+                                <p>七七</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/申鹤.png">
+                                <p>申鹤</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/魈.png">
+                                <p>魈</p>
+                            </div>
+                            <div>
+                                <img src="./img/璃月港/夜阑.png">
+                                <p>夜阑</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fa_text_gzrc" id="ldgzrc">
+                            <div>
+                                <img src="./img/稻妻/凌华.png">
+                                <p>凌华</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/绫人.png">
+                                <p>绫人</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/神子.png">
+                                <p>神子</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/万叶.png">
+                                <p>万叶</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/霄宫.png">
+                                <p>霄宫</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/心海.png">
+                                <p>心海</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/一抖.png">
+                                <p>一抖</p>
+                            </div>
+                            <div>
+                                <img src="./img/稻妻/影.png">
+                                <p>影</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fa_text_gzrc" id="ldgzrc">
+                            <div>
+                                <img src="./img/须弥/艾尔海森.png">
+                                <p>艾尔海森</p>
+                            </div>
+                            <div>
+                                <img src="./img/须弥/草神.png">
+                                <p>草神</p>
+                            </div>
+                            <div>
+                                <img src="./img/须弥/尼禄.png">
+                                <p>尼禄</p>
+                            </div>
+                            <div>
+                                <img src="./img/须弥/赛诺.png">
+                                <p>赛诺</p>
+                            </div>
+                            <div>
+                                <img src="./img/须弥/散兵.png">
+                                <p>散兵</p>
+                            </div>
+                            <div>
+                                <img src="./img/须弥/提纳里.png">
+                                <p>提纳里</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 国家展示 -->
+        <div class="city" id="world">
+            <ul>
+                <li>
+                    <div class="city__list-item">
+                        <a>
+                            <img src="img/蒙德.jpg" class="city_img">
+                            <img src="img/宝石.png" class="city_imgs">
+                            <p>蒙德</p>
+                        </a>
+                        <div class="city__list-char" style="background-image: url(img/首页琴.png);"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="city__list-item">
+                        <a>
+                            <img src="img/璃月.jpg" class="city_img">
+                            <img src="img/宝石.png" class="city_imgs">
+                            <p>璃月</p>
+                        </a>
+                        <div class="city__list-char" style="background-image: url(img/魈.png);"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="city__list-item">
+                        <a>
+                            <img src="img/稻妻.jpg" class="city_img">
+                            <img src="img/宝石.png" class="city_imgs">
+                            <p>稻妻</p>
+                        </a>
+                        <div class="city__list-char" style="background-image: url(img/神里.png);"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="city__list-item">
+                        <a>
+                            <img src="img/须弥.jpg" class="city_img">
+                            <img src="img/宝石.png" class="city_imgs">
+                            <p>须弥</p>
+                        </a>
+                        <div class="city__list-char" style="background-image: url(img/首页提娜里.png);"></div>
+                    </div>
+                </li>
+                <div class="city__list-item_last">
+                    <a>
+                        <img src="img/lastpng.jpg" style="width: 100%;height: 100%;">
+                        <p>敬请期待</p>
+                    </a>
+                </div>
+            </ul>
+        </div>
+        <!-- 分享 -->
+        <div class="icon_nav">
+            <ul>
+                <li><a href=""><span class="iconfont icon-xinlangweibo"></span></a></li>
+                <li><a href=""><span class="iconfont icon-weixin"></span></a></li>
+                <li><a href=""><span class="iconfont icon-QQ"></span></a></li>
+                <li class="lastfen">
+                    <a href=""><span class="iconfont icon-rizhi"></span></a>
+                    <div class="fenxiang">
+                        <p>分享至</p>
+                        <ul>
+                            <li><a href=""><span class="iconfont icon-QQkongjian"></span></a></li>
+                            <li><a href=""><span class="iconfont icon-qq"></span></a></li>
+                            <li><a href=""><span class="iconfont icon-shejiaotubiao-06"></span></a></li>
+                            <li><a href=""><span class="iconfont icon-iconfontzhizuobiaozhunbduan36"></span></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 底部 -->
+        <footer class="footer">
+            <div class="footer-top wd12">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <div style="display: flex;align-items:center;">
+                            <img width="119.37px" height="42px" src="./img/mihayou.png" alt=""><span>|</span>
+                            <h1><img class="game-logo" width="110px" height="80.54px" src="./img/yuanshen.png" alt="">
+                            </h1>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-link">
+                            <div class="footer-protocol">
+                                <div><a href="" class="protocol" target="_blank">用户协议</a>| &nbsp;&nbsp;<a href=""
+                                        class="protocol" target="_blank">隐私政策</a>| &nbsp;&nbsp;<a href="" rel="nofollow"
+                                        class="protocol" target="_blank">儿童隐私政策</a>| &nbsp;&nbsp;<a href=""
+                                        rel="nofollow" class="protocol" target="_blank">自律公约</a>| &nbsp;&nbsp;<a
+                                        class="protocol" rel="nofollow" href="" target="_blank">成长关爱</a>| &nbsp;&nbsp;<a
+                                        href="" rel="nofollow" target="_blank" class="about-us protocol">关于我们</a>|
+                                    &nbsp;&nbsp;<a href="" rel="nofollow" target="_blank"
+                                        class="contract-us protocol">联系我们</a>| &nbsp;&nbsp;<a href="" rel="nofollow"
+                                        target="_blank" class="join-us protocol">加入我们</a><a href=""></a></div>
+                            </div>
+                        </div>
+                        <div class="footer-advice">
+                            <p class="advice-info">
+                                健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。 </p>
+                            <div class="inline-info">
+                                <div class="shiling-info"> <span> </span> </div> <a href="" rel="nofollow"
+                                    class="footer-filing-item" target="_blank">
+                                    沪公网安备31010402001113号 </a> <span class="split-line"> | </span> <span
+                                    class="footer-filing-item">增值电信业务经营许可证：沪B2-20190555</span>
+                            </div>
+                        </div>
+                        <div class="footer-filing">
+                            <div class="footer-filing-content"> <a href="" rel="nofollow" target="_blank"
+                                    class="footer-filing-item">沪ICP备19018275号-4</a><span class="split-line"> |
+                                </span> <span class="footer-filing-item">
+                                    沪网文〔2022〕1334-052号 </span><span class="split-line"> | </span> <span
+                                    class="footer-filing-item">国新出审【2019】2978号</span> </div>
+                            <div class="footer-filing-tip"> <span> 互联网违法不良信息举报邮箱: tousu@mihoyo.com </span>
+                                <span> 互联网违法不良信息举报电话: 021-60371750 （工作时间：每天10点 - 20点） </span>
+                            </div>
+                        </div>
+                        <div class="footer-tip"> 亲爱的市民朋友，上海警方反诈劝阻电话“962110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听 </div>
+
+                        <div class="guanai-phone">未成年成长关爱热线：021-60371740 （服务时间：8:00-23:00）</div>
+                        <div class="mihoyo-copyright">© 2020 米哈游版权所有 | 上海米哈游影铁科技有限公司</div>
+                        <div class="complaint-phone">客服电话：400-666-6312</div>
+                        <div class="footer-icon"> <a href="" rel="nofollow" target="_blank"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/201911/shiming_1575020038_4113.png');">
+                            </a> <a href="" rel="nofollow" target="_blank"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/201911/jubao_1575020039_5071.png');">
+                            </a> <a href="https://www.12377.cn/" rel="nofollow" target="_blank"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/202005/youhai_1589857356_1416.png');">
+                            </a> <a href="" rel="nofollow" target="_blank"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/201911/culture_1575020039_5478.png');">
+                            </a> <a href="javascript:void(0)" rel="nofollow"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/201911/e110_1575020039_7486.png');">
+                            </a> <a href="" rel="nofollow" target="_blank"
+                                style="background-image:url('https://uploadstatic.mihoyo.com/bh3/upload/officialsites/201911/zhizhao_1575020039_4362.png');">
+                            </a> </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        // 轮播图
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        // 角色选项卡
+        $(function () {
+            function tabs(tabTit, on, tabCon) {
+                $(tabTit).children().hover(function () {
+
+                    var index = $(tabTit).children().index(this);
+                    if (index >= 4)
+                        return;
+                    $(this).addClass(on).siblings().removeClass(on);
+                    $(tabCon).children().eq(index).show().siblings().hide();
+                });
+            };
+            tabs(".gzrc-hd", "gzrc-active", ".gzrc-bd");
+            $('.nav-link').click(function () {
+                $('#navMenu').removeClass("show")
+            })
+            // 绑定事件，监听滚动条下拉的动作
+            bindScrollEvent();
+        });
+        function bindScrollEvent() {
+            // 添加滚动监听事件
+            $(window).scroll(function () {
+                var docHeight = $(document).height(); // 获取整个页面的高度(不只是窗口,还包括为显示的页面)
+                var winHeight = $(window).height(); // 获取当前窗体的高度(显示的高度)
+                var winScrollHeight = $(window).scrollTop(); // 获取滚动条滚动的距离(移动距离)
+                //还有30像素的时候,就查询
+                if (winScrollHeight >50) {
+                    $('.yid_hd').css("background-color","#0000006b")
+                    $('.logo1').hide()
+                    $('.logo2').show()
+                }else{
+                    $('.yid_hd').css("background-color","#00000000")
+                    $('.logo1').show()
+                    $('.logo2').hide()
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
